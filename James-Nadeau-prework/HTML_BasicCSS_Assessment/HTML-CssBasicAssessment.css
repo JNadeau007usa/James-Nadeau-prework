@@ -1,0 +1,37 @@
+body {
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#header {
+    color: white;
+    margin-bottom: 150px;
+    font-weight: bold;
+}
+
+h5 {
+    color: black;
+    font-size: 10px;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: skyblue;
+    color: white;
+    border: 2px solid white;
+    border-width: thin;
+    font-size: 10px;
+    height:25px; 
+    width:120px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%
+}

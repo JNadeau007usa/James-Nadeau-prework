@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Images</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="contact.css"/>
+</head>
+ 
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button type="button" class="btn btn-info">James Nadeau</button>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <ul class="nav navbar-nav navbar-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+           
+</nav>
+<!-- Start Contact Form -->
+
+<div class="container">
+    <h3><strong>Contact</h3>
+        <hr>
+<form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+    <div class="form-group">
+      <div class="controls">
+      
+        Name <input type="text" id="name" class="form-control" placeholder="John Smith" required data-error="Please enter your name">
+        <div class="help-block with-errors"></div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="controls">
+        Email <input type="email" class="email form-control" placeholder="example@gmail.com" id="email"required data-error="Please enter your email">
+        <div class="help-block with-errors"></div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="controls">
+        <textarea id="message" rows="7" placeholder="Message" class="form-control" required data-error="Write your message"></textarea>
+      </div>  
+    </div>
+  
+    <button type="submit" id="submit"><i class="fa fa-check"></i> Submit</button>
+    <div id="msgSubmit" class="h3 text-center hidden"></div> 
+    <div class="clearfix"></div>   
+</div> 
+  </form>     
+  <!-- End Contact Form -->
+
+     <!-- Footer -->
+  <footer class="page-footer font-small blue" top-border>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Copyright@
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+</div>
+</div>
+</body>
+</html>

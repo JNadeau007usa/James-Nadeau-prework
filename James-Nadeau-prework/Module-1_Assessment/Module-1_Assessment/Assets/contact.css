@@ -1,0 +1,71 @@
+body{
+    background-color: #dddddd;
+}
+
+.container{
+    background:white;
+    max-width: 600px;
+    height: 370px;
+    margin-top: 20px;
+}
+#name{
+    height: 25px;
+}
+#email{
+    height: 25px;
+}
+
+#message{
+height:100px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left:65%;
+    transform: translatex(-50%);
+}
+.btn-info{
+    margin-left: 27%;
+
+}
+
+
+* {
+    box-sizing: border-box;
+
+  }
+
+  h3{
+      color: #4aaaa5;
+      margin-right: 50%;
+      font-family: 'Times New Roman', Times, serif;
+      display: inline-block;
+      font: bold;
+  }
+
+  hr{
+    height: 1px solid;
+    border: 1px solid lightgrey;
+
+  }
+
+  #submit{
+      color: white;
+      background-color: #4aaaa5;
+      display: inline-block;
+      margin-bottom: 12px;
+  }
+  .footer-copyright{
+    background-color: #666666;
+    border-top: 3px solid;
+    border-color: #4aaaa5;
+    position: absolute;
+    width: 100%;
+    margin-right: 150%;
+    bottom:0;
+    left:0;
+    height:40px;
+    margin-top: #4aaaa5;
+    color: white;
+    font-size: 12px;
+}
+

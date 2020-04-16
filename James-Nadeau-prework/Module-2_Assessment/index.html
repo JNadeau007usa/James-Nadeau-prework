@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Module 2 Assessment</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type ="text/javascript">window.onload=function what(){
+        document.getElementById('hello').innerHTML ='hi';};</script>
+</head>
+<body>
+
+    <div class="header">
+        <h2>Baseball hangman game</h2>
+        <h3>Press any key to start</h3>
+    </div>
+    
+    <div class="wordguess" id="guessword">
+    </div>
+    
+    <div class="wrong_guesses">
+    Wrong Guesses: <span id="wrong">
+    </span></div>
+    
+    <div class="guesses_left" > Guesses Remaining: <span id="remaining"></span> 	
+    </div>
+    
+    <div class="wins">Number of Wins: <span id="numwins"></span>
+    </div>
+    
+    <div class="losses">Number of Losses: <span id="numlosses"></span>
+    </div>
+    
+    <div class="button5">
+    <button type="button5" class="button button5" id="reset" onclick="reset();" >Start Over</button>
+    </div>
+</body>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>

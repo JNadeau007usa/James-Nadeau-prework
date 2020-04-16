@@ -8,6 +8,43 @@ body{
     left:65%;
     transform: translatex(-50%);
 }
+
+div.absolute {
+  position: absolute;
+  top: 38px;
+  width: 142px;
+  height: 25px;
+  background-color: #4aaaa5;
+  margin-top: 15%;
+  color: white;
+  text-align: center;
+  margin-left: 7.25px;
+}
+
+div.absolute2 {
+  position: absolute;
+  top: 150px;
+  width: 142px;
+  height: 25px;
+  background-color: #4aaaa5;
+  margin-top: 15%;
+  color: white;
+  text-align: center;
+  margin-left: 7.25px;
+}
+
+div.absolute3 {
+  position: absolute;
+  top: 268px;
+  width: 142px;
+  height: 25px;
+  background-color: #4aaaa5;
+  margin-top: 15%;
+  color: white;
+  text-align: center;
+  margin-left: 7.25px;
+}
+
 .btn-info{
     margin-left: 27%;
 }

@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+header {
+    background-color: gray;
+    margin-top: 20px;
+}
+
+#left {
+    background-color: blue;
+    margin-bottom: 20px;
+    width: 700px;
+    height: 400px;
+    float: left;
+}
+
+#left h3 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#right {
+    background-color: red;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    width: 250px;
+    height: 400px;
+    float: left;
+}
+
+#right h3 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer {
+    background-color: green;
+    margin-top: 550px;
+}
